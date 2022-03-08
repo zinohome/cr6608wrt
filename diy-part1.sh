@@ -16,3 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# 增加lean的ssr-plus
+echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
+
+# 增加Lienol大神软件包 passwall及其依赖
+echo "src-git lienol https://github.com/Lienol/openwrt-package" >> feeds.conf.default
