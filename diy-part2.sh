@@ -18,14 +18,14 @@ sed -i 's/192.168.3.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 
 # .config文件已经包含了
 # echo '添加Passwall'
-echo 'CONFIG_PACKAGE_luci-app-passwall=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_simple-obfs=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_v2ray-plugin=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y' >> .config
-echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y' >> .config
-echo 'CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y'  >> .config
+# echo 'CONFIG_PACKAGE_luci-app-passwall=y' >> .config
+# echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks=y' >> .config
+# echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan=y' >> .config
+# echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_simple-obfs=y' >> .config
+# echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_v2ray-plugin=y' >> .config
+# echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y' >> .config
+# echo 'CONFIG_PACKAGE_luci-app-passwall_INCLUDE_kcptun=y' >> .config
+# echo 'CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y'  >> .config
 
 # echo '添加luci-app-vssr'
 # git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
